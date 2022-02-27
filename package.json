@@ -35,7 +35,8 @@
     "puppeteer-extra-plugin-adblocker": "^2.11.3",
     "puppeteer-extra-plugin-stealth": "^2.4.9",
     "string-similarity": "^4.0.4",
-    "tmp-promise": "^3.0.3"
+    "tmp-promise": "^3.0.3",
+    "vkflow": "^1.0.1"
   },
   "devDependencies": {
     "@types/node": "^17.0.18",
