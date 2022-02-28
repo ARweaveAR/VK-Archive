@@ -27,8 +27,8 @@ let vkStream
 
 async function main() {
 
-    const config = JSON.parse(readFileSync("config.json").toString());
-    const keys = JSON.parse(readFileSync(config.walletPath).toString());
+    const config = JSON.parse(readFileSync(p.join(__dirname, '../config.json')).toString());
+    const keys = JSON.parse(readFileSync(p.join(__dirname, '../wallet.json')).toString());
 
     const vkFilters = config.keywords.map((word, index)=>{
       return {
